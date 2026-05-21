@@ -1,0 +1,146 @@
+1.
+a="hemakumar"
+print(a.capitalize())
+
+2.
+a="HEMAKUMAR"
+print(a.casefold())
+
+3.
+a = "hemakumar"
+print(a.encode())
+
+4.
+a = "hemakumar"
+print(a.center(4))
+
+
+5.
+a = "hemakumar"
+print(a.count("a"))
+
+
+6.
+a = "hemakumar.ruchita"
+print(a.endswith("ruchita"))
+
+
+7.
+a = "hema\tkumar"
+print(a.expandtabs(20))
+
+8.
+a = "hemakumar"
+print(a.find("k"))
+
+9.
+a= "hemakumar"
+b=20
+print("name is {} and age is {}".format(a,b))
+
+
+10.
+data={"name":"hemu","age":20}
+print("Name is {name} and age is {age}".format_map(data))
+
+
+11.
+a="hemakumar"
+print(a.isalnum())
+
+
+12.
+a = "hemakumar123"
+print(a.isalpha())
+
+
+13.
+a = "hemakumar"
+print(a.isascii())
+
+
+14.
+a = "123"
+print(a.isdecimal())
+
+
+15.
+a = "123"
+print(a.isdigit())
+
+
+16.
+a="name"
+print(a.isidentifier())
+
+
+17.
+a = "hemakumar"
+print(a.islower())
+
+18.
+a = "123"
+print(a.isnumeric())
+
+19.
+a = "hemakumar123"
+print(a.isprintable())
+
+20.
+a = "       "
+print(a.isspace())
+
+
+21.
+a = "Hemakumar"
+print(a.istitle())
+
+
+22.
+a = "hemakumar"
+print(a.isupper())
+
+
+23.
+a="hema","kumar","reddy"
+print(" ".join(a))
+
+
+24.
+a = "HEMAKUMAR"
+print(a.lower())
+
+
+25.
+a="hello"
+k=str.maketrans("l","e")
+print(a.translate(k))
+
+26.
+a="hemuloveruchi"
+print(a.partition("love"))
+
+
+27.
+a="i know c"
+print(a.replace("c","python"))
+
+
+28.
+a="the king is always king that is  kohli"
+print(a.rfind("king"))
+
+
+29.
+a="         hi"
+print(a.lstrip())
+
+30.
+a = "hemakumar"
+print(a.rjust(20,"*"))
+
+
+
+31.
+a = "heMAkumAR"
+print(a.swapcase())
